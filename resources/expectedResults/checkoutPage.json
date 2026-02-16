@@ -1,0 +1,18 @@
+{
+    "checkoutInfoTitle": "Checkout: Your Information",
+    "cancelButton": "Cancel",
+    "continueButton": "Continue",
+    "checkoutOverviewTitle": "Checkout: Overview",
+    "qtyLabel": "QTY",
+    "descriptionLabel": "Description",
+    "paymentInfoLabel": "Payment Information:",
+    "paymentInfoValue": "SauceCard #31337",
+    "shippingInfoLabel": "Shipping Information:",
+    "shippingInfoValue": "Free Pony Express Delivery!",
+    "priceTotalLabel": "Price Total",
+    "finishButton": "Finish",
+    "checkoutCompleteTitle": "Checkout: Complete!",
+    "completeHeader": "Thank you for your order!",
+    "completeText": "Your order has been dispatched, and will arrive just as fast as the pony can get there!",
+    "backHomeButton": "Back Home"
+}

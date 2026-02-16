@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": ["ES2022"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "@index": ["./index.ts"],
+            "@/*": ["./*"],
+            "@support/*": ["./support/*"],
+            "@plugins/*": ["./plugins/*"],
+            "@resources/*": ["./resources/*"],
+            "@testCases/*": ["./testCases/*"]
+        }
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules", "playwright-report", "test-results"]
+}

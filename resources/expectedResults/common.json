@@ -1,0 +1,8 @@
+{
+    "hamburgerMenuOptions": {
+        "allItems": "All Items",
+        "about": "About",
+        "logout": "Logout",
+        "resetAppState": "Reset App State"
+    }
+}
