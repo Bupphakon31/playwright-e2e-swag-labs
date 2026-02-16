@@ -5,7 +5,7 @@ End-to-end testing framework for Sauce Demo website using Playwright and TypeScr
 ## Project Structure
 
 ```
-robot-playwright-e2e-swag-labs/
+playwright-e2e-swag-labs/
 ├── .github/
 │   └── workflows/       # CI/CD pipeline configuration
 ├── .husky/              # Git hooks (pre-commit, post-commit)
@@ -18,12 +18,13 @@ robot-playwright-e2e-swag-labs/
 │   ├── locators/       # Element locators
 │   ├── pageObject/     # Page Object Model classes
 │   └── utils/          # Utility functions
-├── tests/              # Test specifications
+├── testCases/          # Test specifications
+│   └── E2Eflow/        # E2E test flows
 ├── test-results/       # Test execution results
 ├── playwright-report/  # HTML test reports
 ├── globalVariables.ts  # Global configuration variables
 ├── playwright.config.ts
-└── tsconfig.ts
+└── tsconfig.json
 ```
 
 ## Prerequisites
@@ -48,7 +49,7 @@ npm test
 npx playwright test --ui
 
 # Run specific test file
-npx playwright test tests/E2E.spec.ts
+npx playwright test testCases/E2Eflow/E2E.spec.ts
 
 # Run tests with specific tag
 npx playwright test --grep @regression
