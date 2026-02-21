@@ -13,7 +13,6 @@ test.describe("End-to-end for the Sauce Demo website", async () => {
     let dataTestCheckout: Record<string, any> = {};
     let expectedResultLogin: Record<string, any> = {};
     let expectedResultProduct: Record<string, any> = {};
-    let expectedResultProductDetails: Record<string, any> = {};
     let expectedResultCart: Record<string, any> = {};
     let expectedResultCheckout: Record<string, any> = {};
     let expectedCommon: Record<string, any> = {};
@@ -26,9 +25,6 @@ test.describe("End-to-end for the Sauce Demo website", async () => {
         expectedResultLogin = await onFileExtensionUtil.readDataFromJson(`./resources/expectedResults/loginPage.json`);
         expectedResultProduct = await onFileExtensionUtil.readDataFromJson(
             `./resources/expectedResults/productPage.json`
-        );
-        expectedResultProductDetails = await onFileExtensionUtil.readDataFromJson(
-            `./resources/expectedResults/productDetails.json`
         );
         expectedResultCart = await onFileExtensionUtil.readDataFromJson(`./resources/expectedResults/cartPage.json`);
         expectedResultCheckout = await onFileExtensionUtil.readDataFromJson(
