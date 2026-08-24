@@ -9,7 +9,7 @@ export default defineConfig({
     use: {
         trace: "on",
         testIdAttribute: "data-test",
-        headless: true,
+        headless: false,
     },
 
     projects: [
